@@ -6,6 +6,7 @@
 
 1. <p>React JS<p>
 1. <p>Reducers (Hooks with context API)<p>
+1. <p>Materialize-css for UI<p>
 1. <p>MongoDB<p>
 1. <p>Express JS<p>
 1. <p>Node JS</p>
@@ -83,3 +84,9 @@
 > Dev-Dependencies
 
 1. <p>Nodemon</p>
+
+## Future Updates
+
+1. <p>Add Stripe API to handle online payments.</p>
+1. <p>More comprehensive order details page.</p>
+1. <p>Change The UI from materialize-css to Material-UI</p>
