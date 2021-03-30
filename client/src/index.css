@@ -1,0 +1,190 @@
+/* Sign Up Page 
+----------------------------------*/
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.mt-3 {
+    margin-top: 30px;
+}
+
+.mt-5 {
+    margin-top: 50px;
+}
+
+.mb-3 {
+    margin-bottom: 30px;
+}
+
+.mb-2 {
+    margin-bottom: 20px;
+}
+
+.mr-1 {
+    margin-right: 10px;
+}
+
+.ml-1 {
+    margin-left: 10px;
+}
+
+.Modal {
+    position: absolute;
+    top: 50px;
+    left: 5%;
+    right: 5%;
+    bottom: 50px;
+    background-color: #fff;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+}
+
+img {
+    max-width: 100%;
+}
+
+.result {
+    min-height: 100%;
+    max-height: auto;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-product-preview-img {
+    width: 320px;
+    height: 180px;
+    object-fit: cover;
+    padding: 0.75rem;
+}
+
+.product-price {
+    display: flex;
+    flex-direction: row;
+}
+
+.product-price span {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+.product-price span:last-child {
+    color: rgb(184, 21, 21);
+}
+
+/* PRODUCT Details page : Price Information */
+.price-info {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price-info s {
+    color: #aaa;
+}
+
+.price-info span:last-child {
+    color: rgb(184, 21, 21);
+}
+
+/* SLIDER */
+
+.slider {
+    margin: 50px auto;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-image {
+    border-radius: 10px;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 46%;
+    right: 0.3%;
+    font-size: 2rem;
+    color: rgb(79, 102, 129);
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 46%;
+    left: 0.3%;
+    font-size: 2rem;
+    color: rgb(79, 102, 129);
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}
+
+/* cart quantity td */
+.qty {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.qty span {
+    font-size: 20px;
+}
+
+.buttons {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cart-preview {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pay-amount {
+    background: #ccc;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+/* REVIEWS */
+.reviews {
+    max-height: 300px;
+    overflow-y: auto;
+}
