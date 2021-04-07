@@ -2,7 +2,8 @@
 import { useContext, useEffect, useState } from 'react';
 
 // context import
-import { AppContext } from '../../contexts/AppContext';
+// import { AppContext } from '../../contexts/AppContext';
+import { AppContext } from '../contexts/AppContext';
 
 // react-router-dom
 import { Link, NavLink, useHistory } from 'react-router-dom';

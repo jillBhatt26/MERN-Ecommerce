@@ -16,6 +16,7 @@ import axios from 'axios';
 
 // components
 import Navbar from './components/Navbar';
+import Nav from './components/Nav';
 import SignUp from './components/SignUp';
 import Login from './components/Login';
 import SellerSignUp from './components/SellerSignUp';
@@ -70,7 +71,7 @@ const App = () => {
     return (
         <>
             <Router>
-                <Navbar />
+                <Nav />
 
                 <Switch>
                     <Route exact path="/">
