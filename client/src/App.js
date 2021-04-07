@@ -15,7 +15,6 @@ import { AppContext } from './contexts/AppContext';
 import axios from 'axios';
 
 // components
-import Navbar from './components/Navbar';
 import Nav from './components/Nav';
 import SignUp from './components/SignUp';
 import Login from './components/Login';
